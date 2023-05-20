@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://shihabrafio.github.io/Portfolio-setup-and-mobile-first/)
+- [Live Demo Link](https://shihabrafio.github.io/MY-PORTFOLIO/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
