@@ -22,9 +22,7 @@ const projects = [
     company: 'PERSONAL',
     specialization: 'Front End Dev',
     year: 2023,
-    description: 'Todo list App is a simple web app that helps to organize your day.\
-     It simply lists the things that you need to do and allows you to mark them as complete, \
-     delete a task or add a new task and you can even clean all of the completed tasks if you want.',
+    description: 'Todo list App is a simple web app that helps to organize your day.It simply lists the things that you need to do and allows you to mark them as complete,delete a task or add a new task and you can even clean all of the completed tasks if you want.',
     technologies: {
       tech1: 'html',
       tech2: 'css',
@@ -41,8 +39,8 @@ const projects = [
     company: 'PERSONAL',
     specialization: 'Front End Dev',
     year: 2023,
-    description: 'Awesome-books project is a basic website that allows users to add/remove books from a list.\
-    It showcases the use of ES6 JavaScript objects and arrays to dynamically modify the DOM and add basic events.',
+    description: 'Awesome-books project is a basic website that allows users to add/remove books from a list.It showcases the use of ES6 JavaScript objects and arrays to dynamically modify the DOM and add basic events.',
+
     technologies: {
       tech1: 'html',
       tech2: 'css',
@@ -52,25 +50,6 @@ const projects = [
     live: 'https://shihabrafio.github.io/Awesome-Books/',
     source: 'https://github.com/shihabrafio/Awesome-Books-ES6',
   },
-
-  // {
-  //   id: 'proj4',
-  //   title: 'Leaderboard App',
-  //   company: 'PERSONAL',
-  //   specialization: 'Front End Dev',
-  //   year: 2022,
-
-  //   description: 'Leaderboard is a web app that assists in the creation of a working version of the leaderboard that preserves user input using an external API.\
-  //    It also demonstrates the use of async & await, as well as the use of gitflow.',
-  //   technologies: {
-  //     tech1: 'html',
-  //     tech2: 'css',
-  //     tech3: 'javaScript',
-  //   },
-  //   image: './images/Leader.PNG',
-  //   live: 'https://rugwizangoga.github.io/Leaderboard/dist/',
-  //   source: 'https://github.com/rugwizangoga/Leaderboard.git',
-  // },
 
   {
     id: 'proj3',
