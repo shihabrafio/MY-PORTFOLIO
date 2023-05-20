@@ -68,6 +68,24 @@ const projects = [
     live: 'https://shihabrafio.github.io/Meco-Chocolate/',
     source: 'https://github.com/shihabrafio/Meco-Chocolate',
   },
+
+  {
+    id: 'proj4',
+    title: 'Leaderboard',
+    company: 'PERSONAL',
+    specialization: 'Front End Dev',
+    year: 2023,
+
+    description: ' Leaderboard project is a versatile and engaging platform that aims to foster healthy competition and collaboration among individuals or teams in various fields or activities. Whether its a coding competition, a fitness challenge, a gaming tournament, or any other type of competitive endeavor, the Leaderboard project provides a centralized space to track and showcase participants progress, achievements, and rankings.',
+    technologies: {
+      tech1: 'html',
+      tech2: 'css',
+      tech3: 'javaScript',
+    },
+    image: './images/Leaderboard.PNG',
+    live: 'https://shihabrafio.github.io/Leaderboard/',
+    source: 'https://github.com/shihabrafio/Leaderboard',
+  },
 ];
 let count = 1;
 projects.forEach((project) => {
