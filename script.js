@@ -86,6 +86,24 @@ const projects = [
     live: 'https://shihabrafio.github.io/Leaderboard/',
     source: 'https://github.com/shihabrafio/Leaderboard',
   },
+  {
+    id: 'proj5',
+    title: 'Movie Monday',
+    company: 'PERSONAL',
+    specialization: 'Front End Dev',
+    year: 2023,
+
+    description: ' Movie Monday is a dynamic web application designed for movie enthusiasts to explore, discover, and engage with the world of cinema. This repository contains the source code and files for the Movie Monday website, an online platform dedicated to enhancing the movie-watching experience.',
+    technologies: {
+      tech1: 'html',
+      tech2: 'css',
+      tech3: 'javaScript',
+      tech4: 'api',
+    },
+    image: './images/Movie-Monday.PNG',
+    live: 'https://shihabrafio.github.io/Movie-Monday/',
+    source: 'https://github.com/shihabrafio/Movie-Monday',
+  },
 ];
 let count = 1;
 projects.forEach((project) => {
@@ -106,10 +124,9 @@ projects.forEach((project) => {
         ${project.description}
         </p>
         <ul class="tech icons">
-            <li class="techitems">${project.technologies.tech1}</li>
-            <li class="techitems">${project.technologies.tech2}</li>
-            <li class="techitems">${project.technologies.tech3}</li>
-        </ul>
+        ${Object.values(project.technologies).map((tech) => `<li class="techitems">${tech}</li>`).join('\n')}
+      </ul>
+      
         <button type="button" id="${project.id}" class="see">See Project</button>
     </div>
   </div>`;
@@ -150,11 +167,10 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
         ${pop.description}
       </p>
       <div class="smart">
-          <ul class="tech icons">
-            <li class="techitems">${pop.technologies.tech1}</li>
-            <li class="techitems">${pop.technologies.tech2}</li>
-            <li class="techitems">${pop.technologies.tech3}</li>
-          </ul>
+      <ul class="tech icons">
+      ${Object.values(pop.technologies).map((tech) => `<li class="techitems">${tech}</li>`).join('\n')}
+    </ul>
+    
           <div class="btns">
             <button type="button" id="live" class="but">See live &nbsp; &nbsp;
               <img src="./images/live.png" alt="live">
