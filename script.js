@@ -104,6 +104,25 @@ const projects = [
     live: 'https://shihabrafio.github.io/Movie-Monday/',
     source: 'https://github.com/shihabrafio/Movie-Monday',
   },
+  {
+    id: 'proj6',
+    title: 'Math-Magician',
+    company: 'PERSONAL',
+    specialization: 'Front End Dev',
+    year: 2023,
+
+    description: ' Math Magician, users can access a wide range of functionalities that cater to different mathematical needs. The application supports basic arithmetic operations such as addition, subtraction, multiplication, and division, allowing users to quickly perform calculations with ease. Additionally, Math Magician goes beyond simple arithmetic and includes advanced features like exponentiation, square roots, factorials, and more, enabling users to tackle complex mathematical tasks effortlessly.',
+    technologies: {
+      tech1: 'html',
+      tech2: 'css',
+      tech3: 'JSX',
+      tech4: 'api',
+      tech5: 'REACT',
+    },
+    // image: './images/Movie-Monday.PNG',
+    // live: 'https://shihabrafio.github.io/Movie-Monday/',
+    source: 'https://github.com/shihabrafio/Math-Magician',
+  },
 ];
 let count = 1;
 projects.forEach((project) => {
