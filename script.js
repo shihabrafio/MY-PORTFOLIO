@@ -139,7 +139,7 @@ const projects = [
       tech5: 'REACT',
       tech6: 'Redux',
     },
-    image: './images/Math-magician.PNG',
+    image: './images/BookStore.PNG',
     live: 'https://bookstore-4y56.onrender.com/',
     source: 'https://github.com/shihabrafio/BookStore',
   },
