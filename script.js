@@ -119,9 +119,29 @@ const projects = [
       tech4: 'api',
       tech5: 'REACT',
     },
-    // image: './images/Movie-Monday.PNG',
-    // live: 'https://shihabrafio.github.io/Movie-Monday/',
+    image: './images/Math-magician.PNG',
+    live: 'https://math-magician-eo3z.onrender.com/',
     source: 'https://github.com/shihabrafio/Math-Magician',
+  },
+  {
+    id: 'proj7',
+    title: 'Book-Store',
+    company: 'PERSONAL',
+    specialization: 'Front End Dev',
+    year: 2023,
+
+    description: ' Bookstores serve as physical or online spaces dedicated to the sale and distribution of books. They play a vital role in the literary community, offering a wide range of books across various genres and subjects to cater to diverse reading interests. Bookstores serve as gathering places for book lovers, providing an environment conducive to browsing ',
+    technologies: {
+      tech1: 'html',
+      tech2: 'css',
+      tech3: 'JSX',
+      tech4: 'api',
+      tech5: 'REACT',
+      tech6: 'Redux',
+    },
+    image: './images/Math-magician.PNG',
+    live: 'https://bookstore-4y56.onrender.com/',
+    source: 'https://github.com/shihabrafio/BookStore',
   },
 ];
 let count = 1;
