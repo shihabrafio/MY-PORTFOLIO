@@ -127,7 +127,6 @@ const projects = [
       tech4: "Api",
       tech5: "REACT",
     },
-<<<<<<< HEAD
     image: "./images/Math-magician.PNG",
     live: "https://math-magician-eo3z.onrender.com/Calculator",
     source: "https://github.com/shihabrafio/Math-Magician",
@@ -154,24 +153,25 @@ const projects = [
     source: "https://github.com/shihabrafio/Space-Hub",
   },
   {
-    id: 'proj7',
-    title: 'Book-Store',
-    company: 'PERSONAL',
-    specialization: 'Front End Dev',
+    id: "proj8",
+    title: "ECOCLIMA",
+    company: "PERSONAL",
+    specialization: "Front End Dev",
     year: 2023,
 
-    description: ' Bookstores serve as physical or online spaces dedicated to the sale and distribution of books. They play a vital role in the literary community, offering a wide range of books across various genres and subjects to cater to diverse reading interests. Bookstores serve as gathering places for book lovers, providing an environment conducive to browsing ',
+    description:
+      "ECOCLIMA Revolutionizing climate action with an environmental-social app. Stay informed and connected to protect our planet. Real-time air quality updates and a supportive community. Embrace positive peer pressure for a sustainable future. Join us in making a collective impact for a greener world",
     technologies: {
-      tech1: 'html',
-      tech2: 'css',
-      tech3: 'JSX',
-      tech4: 'api',
-      tech5: 'REACT',
-      tech6: 'Redux',
+      tech1: "html",
+      tech2: "Css",
+      tech3: "JSX",
+      tech4: "Api",
+      tech5: "REACT",
+      tech6: "Redux",
     },
-    image: './images/BookStore.PNG',
-    live: 'https://bookstore-4y56.onrender.com/',
-    source: 'https://github.com/shihabrafio/BookStore',
+    image: "./images/EcoClima.PNG",
+    live: "https://github.com/shihabrafio/EcoClima",
+    source: "https://github.com/shihabrafio/EcoClima",
   },
 ];
 let count = 1;
