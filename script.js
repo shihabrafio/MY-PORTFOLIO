@@ -152,11 +152,6 @@ const projects = [
     image: "./images/Space-hub.PNG",
     live: "https://space-travel-hub-dupt.onrender.com/",
     source: "https://github.com/shihabrafio/Space-Hub",
-=======
-    image: './images/Math-magician.PNG',
-    live: 'https://math-magician-eo3z.onrender.com/',
-    source: 'https://github.com/shihabrafio/Math-Magician',
->>>>>>> a2d43386815516c24dc5e4788ff962ee79305396
   },
   {
     id: 'proj7',
