@@ -75,7 +75,7 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```sh
-    "git clone https://github.com/toyman640/Hello_microverse.git"
+    "git clone https://github.com/shihabrafio/MY-PORTFOLIO.git"
 ```
 
 - Navigate to the location of the folder in your machine:
