@@ -315,8 +315,9 @@ const formdata = {
 const fields = [...document.querySelectorAll('.names')];
 fields.forEach((n) => n.addEventListener('change', () => {
   const index = fields.indexOf(n);
-  if (index === 0) { formdata.yourname = document.forms[0].elements[index].value; } else if (index === 1) { formdata.youremail = document.forms[0].elements[index].value; } else formdata.yourmessage = document.forms[0].elements[index].value;
-
+  if (index === 0) { formdata.yourname = document.forms[0].elements[index].value; } 
+  else if (index === 1) { formdata.youremail = document.forms[0].elements[index].value; } 
+  else formdata.yourmessage = document.forms[0].elements[index].value;
   window.localStorage.setItem('formdata', JSON.stringify(formdata));
 }));
 
