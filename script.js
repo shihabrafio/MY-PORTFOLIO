@@ -200,9 +200,9 @@ const projects = [
     description:
       'Sky Movie is a movie information application that utilizes the TMDB API to provide users with comprehensive details about movies. With this app, users can access a vast database of movies, including information such as titles, genres, release dates, ratings, and cast members. The app leverages the TMDB API to fetch and display accurate and up-to-date movie data, allowing users to explore and discover information about their favorite films. It offers an intuitive interface that makes it easy for users to search for movies, view detailed information, and stay informed about the latest movie releases..',
     technologies: {
-      tech1: 'html',
-      tech2: 'Tailwind Css',
-      tech3: 'JSX',
+      tech1: 'Tailwind Css',
+      tech2: 'JSX',
+      tech3: 'API',
       tech4: 'REACT',
     },
     image: './images/Sky-Movie.png',
@@ -211,22 +211,20 @@ const projects = [
   },
   {
     id: 'proj11',
-    title: 'TASKMATE',
+    title: 'OOP School Library',
     company: 'PERSONAL',
-    specialization: 'Front End Dev',
+    specialization: 'Back End Dev',
     year: 2023,
 
     description:
-      'TaskMate is a user-friendly React app that simplifies task management and enhances productivity. With its intuitive interface, users can easily create, organize, and prioritize tasks. The app offers features like due dates, reminders, and advanced filtering, allowing users to stay on top of their responsibilities.',
+      'The OOP School Library Backend App is a powerful and flexible tool designed to help schools and educational institutions efficiently manage their library resources. This backend application allows librarians and administrators to keep track of all the records of books in the library and the borrowers who check them out.',
     technologies: {
-      tech1: 'html',
-      tech2: 'Css',
-      tech3: 'JSX',
-      tech5: 'REACT',
+      tech1: 'Ruby',
+      tech2: 'OOP',
+      tech3: 'PostGreSql',
     },
-    image: './images/TaskMate.PNG',
-    live: 'https://taskmate-nwzt.onrender.com/',
-    source: 'https://github.com/shihabrafio/Taskmate',
+    image: './images/school_library.PNG',
+    source: 'https://github.com/shihabrafio/OOP-School-Library',
   },
 ];
 let count = 1;
