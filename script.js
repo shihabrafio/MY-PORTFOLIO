@@ -205,7 +205,7 @@ const projects = [
       tech3: 'JSX',
       tech4: 'REACT',
     },
-    image: './images/Sky-Movie',
+    image: './images/Sky-Movie.png',
     live: 'https://movie-api-lqpn.onrender.com/',
     source: 'https://github.com/shihabrafio/Sky-Movie',
   },
