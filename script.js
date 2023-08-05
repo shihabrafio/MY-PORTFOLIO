@@ -184,6 +184,44 @@ const projects = [
       tech1: 'html',
       tech2: 'Css',
       tech3: 'JSX',
+      tech4: 'REACT',
+    },
+    image: './images/TaskMate.PNG',
+    live: 'https://taskmate-nwzt.onrender.com/',
+    source: 'https://github.com/shihabrafio/Taskmate',
+  },
+  {
+    id: 'proj10',
+    title: 'Sky Movie',
+    company: 'PERSONAL',
+    specialization: 'Front End Dev',
+    year: 2023,
+
+    description:
+      'Sky Movie is a movie information application that utilizes the TMDB API to provide users with comprehensive details about movies. With this app, users can access a vast database of movies, including information such as titles, genres, release dates, ratings, and cast members. The app leverages the TMDB API to fetch and display accurate and up-to-date movie data, allowing users to explore and discover information about their favorite films. It offers an intuitive interface that makes it easy for users to search for movies, view detailed information, and stay informed about the latest movie releases..',
+    technologies: {
+      tech1: 'html',
+      tech2: 'Tailwind Css',
+      tech3: 'JSX',
+      tech4: 'REACT',
+    },
+    image: './images/Sky-Movie',
+    live: 'https://movie-api-lqpn.onrender.com/',
+    source: 'https://github.com/shihabrafio/Sky-Movie',
+  },
+  {
+    id: 'proj11',
+    title: 'TASKMATE',
+    company: 'PERSONAL',
+    specialization: 'Front End Dev',
+    year: 2023,
+
+    description:
+      'TaskMate is a user-friendly React app that simplifies task management and enhances productivity. With its intuitive interface, users can easily create, organize, and prioritize tasks. The app offers features like due dates, reminders, and advanced filtering, allowing users to stay on top of their responsibilities.',
+    technologies: {
+      tech1: 'html',
+      tech2: 'Css',
+      tech3: 'JSX',
       tech5: 'REACT',
     },
     image: './images/TaskMate.PNG',
