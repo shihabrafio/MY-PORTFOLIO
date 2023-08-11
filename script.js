@@ -226,6 +226,23 @@ const projects = [
     image: './images/school_library.PNG',
     source: 'https://github.com/shihabrafio/OOP-School-Library',
   },
+  {
+    id: 'proj12',
+    title: 'Catalog App',
+    company: 'PERSONAL',
+    specialization: 'Back End Dev',
+    year: 2023,
+
+    description:
+      'Discover the ultimate organizational solution for your personal collections with the Catalog of My Things App. This user-friendly application offers a seamless and intuitive experience, allowing you to effortlessly manage and explore various categories of your belongings, including games, books 📚, and music albums 🎶.',
+    technologies: {
+      tech1: 'Ruby',
+      tech2: 'OOP',
+      tech3: 'PostGreSql',
+    },
+    image: './images/catalog_of_my_things.png',
+    source: 'https://github.com/shihabrafio/Catalog-App',
+  }
 ];
 let count = 1;
 projects.forEach((project) => {
